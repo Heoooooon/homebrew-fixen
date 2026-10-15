@@ -5,8 +5,7 @@ cask "fixen" do
   sha256 arm:   "48c976ed6d41a8e3d858fc4aa669eb519bf366d28cce16f2b4e62d5c623a5ac1",
          intel: "47610df4d4316ba0a73a49a5ef4853180fe6f02eb4da55665ca057ca807ad485"
 
-  url "https://github.com/Heoooooon/fixen/releases/download/app-v#{version}/fixen_#{version}_#{arch}.dmg",
-      verified: "github.com/Heoooooon/fixen/"
+  url "https://github.com/Heoooooon/fixen/releases/download/app-v#{version}/fixen_#{version}_#{arch}.dmg"
   name "fixen"
   desc "Menu bar app that fixes your English in any app"
   homepage "https://cmore.dev/fixen/"
