@@ -1,9 +1,9 @@
 cask "fixen" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.1.0"
-  sha256 arm:   "48c976ed6d41a8e3d858fc4aa669eb519bf366d28cce16f2b4e62d5c623a5ac1",
-         intel: "47610df4d4316ba0a73a49a5ef4853180fe6f02eb4da55665ca057ca807ad485"
+  version "0.1.1"
+  sha256 arm:   "9180e27f31ffb5575decfb58bdc6d484e89dd4e754023193abc346396657184d",
+         intel: "033f04085c42168075a6b5583f17645607614dfbc2ff81fa7d9a44356318050a"
 
   url "https://github.com/Heoooooon/fixen/releases/download/app-v#{version}/fixen_#{version}_#{arch}.dmg"
   name "fixen"
